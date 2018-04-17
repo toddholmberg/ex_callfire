@@ -32,7 +32,9 @@ defmodule ExCallfire.MixProject do
   defp package do
     [
       maintainers: ["Todd Holmberg <todd@welikesmall.com>"],
-      licenses: ["MIT"]
+      licenses: ["MIT"],
+      organization: ["Welikesmall, Inc."],
+      links: %{"Welikesmall" => "http://www.welikesmall.com/"}
     ]
   end
 end
