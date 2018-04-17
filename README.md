@@ -1,13 +1,10 @@
 # ExCallfire
 
 ExCallfire is a micro wrapper intended to be
-used for sending requests to CallFires's REST API. It's pretty much 
+used for sending requests to [CallFire's](https://www.callfire.com/) [REST API](https://developers.callfire.com/docs.html). It's pretty much 
 lifted directly from [Heresy's](https://github.com/heresydev) [Stripy](https://github.com/heresydev/stripy) package. Thanks, [Heresy](https://github.com/heresydev).
 
 ## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `ex_callfire` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
