@@ -16,16 +16,16 @@ defmodule ExCallfire.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger],
-      mod: {ExCallfire.Application, []}
+      extra_applications: [:logger]
     ]
   end
 
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:httpoison, "~> 1.0"},
-      {:poison, "~> 3.1"}
+      {:httpoison, "~> 0.13"},
+      {:poison, "~> 3.1"},
+      {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
 
@@ -33,7 +33,6 @@ defmodule ExCallfire.MixProject do
     [
       maintainers: ["Todd Holmberg <todd@welikesmall.com>"],
       licenses: ["MIT"],
-      organization: ["Welikesmall, Inc."],
       links: %{"Welikesmall" => "http://www.welikesmall.com/"}
     ]
   end
