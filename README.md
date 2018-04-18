@@ -9,7 +9,7 @@ lifted directly from [Heresy's](https://github.com/heresydev) [Stripy](https://g
 ```elixir
 def deps do
   [
-    {:ex_callfire, "~> 0.1.0"}
+    {:ex_callfire, "~> 0.1.1"}
   ]
 end
 ```

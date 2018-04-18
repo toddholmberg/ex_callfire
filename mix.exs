@@ -4,7 +4,7 @@ defmodule ExCallfire.MixProject do
   def project do
     [
       app: :ex_callfire,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.6",
       name: "ExCallfire",
       description: "Micro wrapper for the CallFire REST API",
